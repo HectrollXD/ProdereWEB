@@ -15,3 +15,8 @@ un lector de código de barras y una tableta digitalizadora para el uso de dicha
 
 El propósito de dicho programa es para la disminución del tiempo de registro de los alumnos al momento
 de pedir un libro prestado de la institución.
+
+### Colaboradores.
+
+* David Alejandro
+* Hector Geovanny
