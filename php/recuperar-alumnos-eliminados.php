@@ -21,12 +21,12 @@
             $Query = oci_parse($Conexion_a_la_base_de_datos_Oracle, $Consulta);
             oci_execute($Query);
             while($rows = oci_fetch_array($Query, OCI_NUM + OCI_RETURN_NULLS)){
-                $nombre = ucwords(strtolower($rows[2]));
+                $nombre = ucwords(strtolower($rows[1]));
                 $tabla.="
                         <tr>
                             <th scope='row'>$rows[0]</th>
                             <td>$nombre</td>
-                            <td>$rows[1]</td>
+                            <td>$rows[2]</td>
                             <td><button class='btn btn-success' value='$rows[0]'>Recuperar</button></td>
                         </tr>
                 ";
