@@ -18,5 +18,5 @@ de pedir un libro prestado de la institución.
 
 ### Colaboradores.
 
-* David Alejandro
-* Hector Geovanny
+* David Alejandro Barba Sanchez
+* Hector Geovanny Rodriguez Martinez
